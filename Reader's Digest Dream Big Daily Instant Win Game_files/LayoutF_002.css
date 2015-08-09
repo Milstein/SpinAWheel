@@ -1,0 +1,175 @@
+/* CSS Document */
+
+/* Template Layout F Custom CSS File */
+
+ .primary { color: #27a7df !important; }
+ .secondary { color: #ed1c24 !important; }
+
+html, body { background: #fff; font-family: 'Lato', sans-serif; font-weight: 400; color: #58595b; }
+
+ nav { background: #fff; }
+	 nav ul.shareIcons {background:#fff; display:none; }
+         .shareIcons li.fb { background: #3b5998; }
+         .shareIcons li.tw { background: #29c5f6; }
+         .shareIcons li.gp { background: #d84a38; }
+         .shareIcons li.pin { background: #c61118; }
+	 div.langSwitch { color: #808285; }
+	     div.langSwitch a { color: #808285; }
+     .counters { z-index: 10; }
+         #daysLeft,  #daysUntil { color: #000; background: #fff; }
+         #entryCount { color: #000; background-color: #fff;  }
+
+	 .shareIcons li.fb {background:#3B579D; }
+	 .shareIcons li.tw {background:#5ea9dd; }
+	 .shareIcons li.gp {background:#dd4b39; }
+	 .shareIcons li.pin {background:#cb2027; }
+	
+  header { height: 330px; background: url(../../images/HeaderImg_1400.jpg) no-repeat center top; background-size: cover; }
+ .headerVid header { height: auto; background: none; }
+
+/*Video Responsive*/
+         .videoHolder { position: relative; display: block; height: 0; padding: 0; padding-bottom: 28.7%; }
+             .videoHolder iframe, .videoHolder video { position: absolute; top: 0; bottom: 0; left: 0; width: 100%; height: 100%; border: 0; }
+div#lockup { position: absolute; top: -5px; z-index: 50; width: 37%; left: 50%; margin-left: -18.5%; }
+    #lockup img { display: block; width: 100%; height: auto; }
+	
+/* Splash */
+ #splash h1,  #splash h3,  #register h1,  #thanks h1,  #thanks h3,  #welcomeBack h1,  #comingSoon h1,  #comingSoon h2,  #dialog h2 { font-family: 'Lora', serif; font-weight: 700; }
+#splash h1 { font-size: 1.25em; }
+#splash p { text-align: center;  }
+    .btn.splashFBLogin { background: #3b5998; }
+     .btn.splashGoogleLogin { background: #DE4C34; }
+     .btn.splashTwLogin { background: #45B0E3; }
+	 .btn.splashYahooLogin { background: #5f05ac; }
+
+#welcomeBack p { font-size: .85em; }
+
+/* Footer */
+ footer {background:none; color:#58595b;  }
+	 footer li a:link,  footer li a:visited { color: #58595b; text-decoration: none; }
+	 footer li a:hover,  footer li a:active { color: #58595b; text-decoration: underline; }
+	 footer a:link,  footer a:visited { color: #58595b; text-decoration: none; }
+	 footer a:hover,  footer a:active { color: #58595b; text-decoration: underline; }
+      #footerGallery > div { background-size: cover; background-position: top center; }
+		.sec20 {width:calc(20% - 6px); }
+		#footerGallery div.sec20 { background-image: url(../../images/gallery/gal2.jpg); }
+		#footerGallery div.sec20:first-child { background-image: url(../../images/gallery/gal1.jpg); }
+		#footerGallery div.sec15 { background-image: url(../../images/gallery/gal3.jpg); }
+		#footerGallery div.sec20:nth-child(4) { background-image: url(../../images/gallery/gal4.jpg); }
+        #footerGallery div.split { background: none; }
+              #footerGallery div.split > div  { background-size: cover; }
+                 #footerGallery div.split .top { background-image: url(../../images/gallery/gal5_1.jpg); }
+                 #footerGallery div.split .bot { background-image: url(../../images/gallery/gal5_2.jpg); }
+     #footerLinks li:after { content: '|'; padding: 0 5px; }
+
+/*Buttons*/
+ .btn { background: #ed1c24; }
+     .btn .btnTxt { font-size: 14px; font-family: 'Lato', sans-serif; text-transform: uppercase; }
+    .rgba .btn .btnIcon { background: rgba(255, 255, 255, 0.25); }
+     #socialLoginOptions .btn .btnTxt { font-family: 'Myhota', sans-serif; font-size: 15px; }
+    .rgba #socialLoginOptions .btn .btnIcon { background: rgba(0, 0, 0, 0.25); }
+
+/* Register*/
+ .regField { font-size: 14px; }
+    #register p { text-align: center; }
+    #prizeSelectHolder { text-align: center; }
+    .prizeSelect { min-width: 200px; display: inline-block; float: none; padding-bottom: 15px; text-align: center; -webkit-transition: all .25s ease-in; -moz-transition: all .25s ease-in; -ms-transition: all .25s ease-in; -o-transition: all .25s ease-in; transition: all .25s ease-in; } 
+      .prizeSelect:hover {border-color: #BEEBFF; }
+        .prizeDescription { background: #fff; }
+    #prize1 { background: url(../../images/Prize1.jpg) center no-repeat; }
+     #prize2 { background: url(../../images/Prize2.jpg) center no-repeat; }
+     #prize3 { background: url(../../images/Prize3.jpg) center no-repeat; }
+     #prize4 { background: url(../../images/Prize4.jpg) center no-repeat; }
+      .prizeSelect.selected, .prizeSelect.selected:hover { border-color: #27a7df; }
+      .recaptcha_Get_Another a:link, .recaptcha_Get_Another a:visited { color:#ed1c24; }
+
+/* Games */
+#game h3 { margin: 0;   font-size: 1.3em; }
+#game p { margin-top: 0; }
+
+#prizeHolder { background: #C7C7C7; }
+   #featuredPrizeImg { opacity: 0;}   #featuredPrizeImg { opacity: 1; }
+ #gTop { background-image: none; }
+ #Ticker { background-image: url(../../images/Games/spinNWin/tckrB.png); }
+ #scratchCard { cursor: url(../../images/Games/scratch/coinC.cur), auto; }
+.puzzleOption.selected { border-color: #C14063; opacity: .75; }
+#puzzlCanvas { background: #DAD4D4; }	
+#game #dialog h2 { font-size: 1.35em; }
+
+/* Thanks */
+#thanks p { text-align: center; font-size: .875em;  }
+    #thanksBonusCopy { margin: 1em 0 0; }
+    #thanksRateCopy { font-weight: bold; text-decoration: underline; font-size: .875em; text-align: center; margin: 0 auto 1.5em; }
+        #thanksRateCopy span a {   color: #000; }
+            #thanksRateCopy span a:hover { text-decoration:none; }
+    #thanksBonusImg { width: 20%; text-align: right; float: left;}
+    #thanksBonusList { width: 70%; margin: 0 0 0 3%; padding-top: 1em; float: left;}
+
+    .toh .varContent:not(.toh), .bnb .varContent:not(.bnb), .rd .varContent:not(.rd), .fh .varContent:not(.fh) {display:none; }
+
+    #thanks .shareIcons li.shareText { background: none; color: #000; width: 150px; text-align:right; font-weight: bold; font-size: .925em; line-height: 30px; }
+
+    a.visitSite { width: 255px; margin-bottom: 1.25em; }
+        a.visitSite .btnTxt { width: 220px; }
+        a.visitSite .btnIcon { width: 35px; }
+    #footerShare { background-color: #fff; }
+
+ #overlay[style*="opacity: 1"] { background-color: #58595b; }
+ #overlay,  #overlayRules { background-color: #000; }
+
+
+/* SLIDER OPTIONS */
+.bx-wrapper .bx-viewport {border:none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; border: none; left:0; }
+.bxslider { top: 0; margin-top: 0; }
+
+
+@media screen and (max-width: 1200px) {
+     .headerVid .headerImg { display: none; }
+     header { height: auto; background: none; }
+
+    #footerGallery div.sec15 { background-image: url(../../images/gallery/gal3_m.jpg);  width: calc(25% - 6px); }
+    #footerGallery div.sec20 { width: calc(25% - 6px);  }
+    #footerGallery div.sec25 { display: none; }
+}
+
+
+
+@media screen and (max-width: 810px) {
+     a.visitSite { margin: 1em auto; }
+}
+
+@media screen and (max-width: 768px) {
+    .headerVid .videoHolder { display: none; }
+    .headerVid .headerImg { display: block; }
+  
+
+    #footerGallery div.sec20 { width: calc(50% - 6px);  }
+    #footerGallery div.sec15 { width: calc(50% - 6px); }
+}
+
+@media screen and (max-width: 650px) {
+
+    #register h2 { font-size: .925em; }
+    #register p#prizeHeader { font-size: .95em; }
+
+    #thanks h1 { font-size: 1.3em; }
+    #thanks h2 { font-size: 1em; margin: 0 auto 1em; }
+    #thanks p { font-size: 1em; }
+
+    #emailLogin { margin: 0 auto 1em; }
+    #thanksBonusList, #thanksBonusImg { float: none; width: 95%; text-align: center; margin: auto;}
+    #thanksBonusList { text-align: left; }
+    .prizeSelect { min-width: 0; }
+}
+
+@media screen and (max-width: 480px) {
+     #slotmachine .column img { padding: .5px 0; }
+     #tafBtns .regField { width: 100%; }
+    #footerGallery > div {  height: 250px; }
+        #footerGallery div.sec20, #footerGallery div.sec15 { width: calc(90% - 6px); margin: 0 5%; }
+     #footerLinks li:after { content: ''; padding: 0; }
+
+     .prizeDescription {  text-align: center; }
+
+     #thanks .shareIcons li.shareText { font-size: .75em; width: 125px; }
+}
